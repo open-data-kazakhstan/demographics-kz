@@ -1,0 +1,26 @@
+on:
+  schedule:
+    - cron:  '0 0 1 * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Build the data and create local changes
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.6.10'
+        architecture: x64
+    - run: |
+        pip install -r scripts/requirements.txt
+        python scripts/process.py
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit --allow-empty -m "Auto-update of the data package" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.gh }}

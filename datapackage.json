@@ -1,0 +1,118 @@
+{
+  "bytes": 7208,
+  "count_of_rows": 162,
+  "hash": "b30d6aab642b19644964c1dce900029c",
+  "name": "population-kz",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 5009,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "58159810620a5249ceaaaf27bf0e5393",
+      "name": "regions-age-sex",
+      "path": "data/regions-age-sex.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "sex",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "age",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "value",
+            "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 1517,
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "090c6019fad2e97312e348a7ae5837b5",
+      "name": "regions-by-sex",
+      "path": "data/regions-by-sex.csv",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "sex",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "bytes": 682,
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "29a9a2dc3db3b2d5f66033b32f1e2b6b",
+      "name": "regions-total",
+      "path": "data/regions-total.csv",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ],
+  "title": "Population in Kazakhstan by region, age and sex."
+}
