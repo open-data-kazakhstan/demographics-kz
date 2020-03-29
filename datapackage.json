@@ -1,8 +1,8 @@
 {
   "bytes": 7208,
   "count_of_rows": 162,
-  "hash": "b30d6aab642b19644964c1dce900029c",
-  "name": "population-kz",
+  "hash": "7944e5031b13cd9a08401dbb3b16e6bb",
+  "name": "demographics-kz",
   "profile": "data-package",
   "resources": [
     {
@@ -114,5 +114,5 @@
       }
     }
   ],
-  "title": "Population in Kazakhstan by region, age and sex."
+  "title": "Demographics in Kazakhstan by region, age and sex."
 }

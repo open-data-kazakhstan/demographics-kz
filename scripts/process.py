@@ -13,7 +13,7 @@ def remove_empty(rows):
         if row:
             yield row
 
-def population():
+def demographics():
     flow = Flow(
         # Load inputs
         load('https://data.egov.kz/datasets/exportcsv?index=kazakstan_respublikasy_halkyny1&version=v3&from=1&count=100', format='csv', name='regions-age-sex'),
@@ -63,7 +63,7 @@ def population():
             )
         ),
         # Save the results
-        add_metadata(name='population-kz', title='''Population in Kazakhstan by region, age and sex.'''),
+        add_metadata(name='demographics-kz', title='''Demographics in Kazakhstan by region, age and sex.'''),
         printer(),
         dump_to_path(),
     )
@@ -71,4 +71,4 @@ def population():
 
 
 if __name__ == '__main__':
-    population()
+    demographics()
