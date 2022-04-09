@@ -4,6 +4,8 @@ Demographics in Kazakhstan by region, age and sex.
 
 Data is in CSV format and synced with upstream source monthly. It is sourced from https://data.egov.kz/datasets/view?index=kazakstan_respublikasy_halkyny1.
 
+**Note:** Since data.egov.kz requested for a signed key for authorization, we just downloaded and put in directory *archive*. It is temporary solution
+
 We have processed the source data to make it normalized and derived from it several aggregated datasets:
 
 * `data/regions-age-sex.csv` - data by region, age and sex.
