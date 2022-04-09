@@ -16,7 +16,7 @@ def remove_empty(rows):
 def demographics():
     flow = Flow(
         # Load inputs
-        load('https://data.egov.kz/datasets/exportcsv?index=kazakstan_respublikasy_halkyny1&version=v3&from=1&count=100', format='csv', name='regions-age-sex'),
+        load("archive/kazakhstan_respublikasy_halkyny1-v4.csv", format='csv', name='regions-age-sex'),
         # Remove empty rows
         remove_empty,
         unpivot(unpivoting_fields, extra_keys, extra_value),
