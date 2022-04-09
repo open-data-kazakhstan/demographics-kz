@@ -1,12 +1,12 @@
 {
-  "bytes": 7208,
+  "bytes": 7272,
   "count_of_rows": 162,
-  "hash": "7944e5031b13cd9a08401dbb3b16e6bb",
+  "hash": "11f07d6c18c0bf815df54947b37b05c1",
   "name": "demographics-kz",
   "profile": "data-package",
   "resources": [
     {
-      "bytes": 5009,
+      "bytes": 5052,
       "dialect": {
         "caseSensitiveHeader": false,
         "delimiter": ",",
@@ -18,7 +18,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "hash": "58159810620a5249ceaaaf27bf0e5393",
+      "hash": "181ef324a6e27b5b86ab15198bc00e13",
       "name": "regions-age-sex",
       "path": "data/regions-age-sex.csv",
       "profile": "tabular-data-resource",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "bytes": 1517,
+      "bytes": 1532,
       "dialect": {
         "delimiter": ",",
         "doubleQuote": true,
@@ -61,7 +61,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "hash": "090c6019fad2e97312e348a7ae5837b5",
+      "hash": "e7768d0354e583acd148c87efefa5cfd",
       "name": "regions-by-sex",
       "path": "data/regions-by-sex.csv",
       "profile": "data-resource",
@@ -85,7 +85,7 @@
       }
     },
     {
-      "bytes": 682,
+      "bytes": 688,
       "dialect": {
         "delimiter": ",",
         "doubleQuote": true,
@@ -95,7 +95,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "hash": "29a9a2dc3db3b2d5f66033b32f1e2b6b",
+      "hash": "6ffe949d349aaebbe04ed7101c632c6b",
       "name": "regions-total",
       "path": "data/regions-total.csv",
       "profile": "data-resource",
