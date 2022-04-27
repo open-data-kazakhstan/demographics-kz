@@ -19,7 +19,7 @@ We have also added some metadata such as column descriptions and [data packaged 
 ## Preparation
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
-![.github/workflows/actions.yml](https://github.com/anuveyatsu/demographics-kz/workflows/.github/workflows/actions.yml/badge.svg?branch=master)
+![.github/workflows/actions.yml](https://github.com/open-data-kazakhstan/demographics-kz/actions/workflows/actions.yml/badge.svg?branch=master)
 
 This repository uses [dataflows](https://github.com/datahq/dataflows) to process and normalize the data.
 
